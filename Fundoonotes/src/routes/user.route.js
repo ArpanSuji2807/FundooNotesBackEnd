@@ -9,10 +9,10 @@ const router = express.Router();
 router.get('', userController.getAllUsers);
 
 //route to create a new user
-router.post('', newUserValidator, userController.newUser);
+router.post('', newUserValidator, userController.UserRegistration);
 
 //route to get a single user by their user id
-router.get('/:_id', userAuth, userController.getUser);
+router.post('/login', userController.userLogin);
 
 //route to update a single user by their user id
 router.put('/:_id', userController.updateUser);

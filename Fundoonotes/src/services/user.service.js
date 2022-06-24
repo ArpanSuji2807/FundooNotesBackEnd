@@ -7,7 +7,7 @@ export const getAllUsers = async () => {
 };
 
 //create new user
-export const newUser = async (body) => {
+export const UserRegistration = async (body) => {
   const data = await User.create(body);
   return data;
 };
@@ -33,7 +33,7 @@ export const deleteUser = async (id) => {
 };
 
 //get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
+export const userLogin = async (body) => {
+  const data = await User.findById(body);
   return data;
 };
