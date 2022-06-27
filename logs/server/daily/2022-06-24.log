@@ -1,0 +1,200 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T06:50:40.371Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T06:50:40.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T06:51:02.765Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T06:51:02.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T06:51:25.483Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T06:51:25.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:01:18.134Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:01:18.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:02:01.305Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:02:01.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:07:35.884Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:07:35.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:07:48.060Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:07:48.109Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getUser is not a function
+    at _callee2$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:31:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:29:23)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T07:08:28.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:19:37.078Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:19:37.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:19:40.259Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:19:40.444Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getUser is not a function
+    at _callee2$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:31:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:29:23)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T07:20:03.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:21:10.981Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:21:11.006Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  email: { email: 'arpan@gmail.com', password: 'abcd' },
+  password: undefined
+}" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T07:21:13.618Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  email: { email: 'arpan@gmail.com', password: 'abcd' },
+  password: undefined
+}" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T07:22:04.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T07:22:49.792Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:22:49.815Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ email: { email: 'arpan@gmail.com', password: 'abcd' } }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T07:22:56.715Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:06:17.559Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:06:17.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:07:32.347Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:07:32.370Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T10:07:52.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:13:02.362Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:13:02.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:13:11.378Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:13:11.400Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ email: 'arpan@gmail.com', password: 'abcd' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T10:13:17.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:14:46.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:14:50.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:15:25.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:16:27.883Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:16:27.910Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ email: 'arpan@gmail.com', password: 'abcd' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T10:18:34.997Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FundooNotesTestDB_Arpan.users index: email_1 dup key: { email: "arpan@gmail.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-24T10:19:28.394Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.writeHead (node:_http_server:275:11)
+    at ServerResponse.writeHead (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T10:19:28.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:45:31.743Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:45:31.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:46:11.387Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:46:11.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T10:46:20.978Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:46:21.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T11:37:01.933Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T11:37:01.960Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 35
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-24T11:37:37.853Z"}

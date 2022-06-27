@@ -1,0 +1,18 @@
+info: ::1 - - [27/Jun/2022:16:45:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:46:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:46:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:46:24 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:47:39 +0000] "POST /api/v1/users/login HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:47:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:47:59 +0000] "POST /api/v1/users/login HTTP/1.1" 400 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:48:07 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [27/Jun/2022:16:48:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.29.0"
+
