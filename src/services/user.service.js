@@ -50,6 +50,6 @@ export const userLogin = async (body) => {
     }
   }
   else{
-    throw new Error("Email Id doesn't exist");
+    throw new Error("Email Id does not exist");
   }
 };
