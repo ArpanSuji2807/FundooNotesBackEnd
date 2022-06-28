@@ -212,3 +212,5 @@ info: ::1 - - [27/Jun/2022:18:22:26 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [27/Jun/2022:18:25:27 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [28/Jun/2022:02:49:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
