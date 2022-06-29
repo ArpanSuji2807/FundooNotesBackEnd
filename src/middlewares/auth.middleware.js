@@ -10,20 +10,24 @@ import jwt from 'jsonwebtoken';
  * @param {Function} next
  */
 export const userAuth = async (req, res, next) => {
+  console.log("Inside middleware---->>>",req.body);
   try {
     let bearerToken = req.header('Authorization');
+    console.log("Bearer token---->>>>",bearerToken);
+
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
-        message: 'Authorization token is required'
+        message: `Authorization token is required`
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user } = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
+    const { user } = await jwt.verify(bearerToken, process.env.SECRET_KEY);
     next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `UnAuthorised token`
+    });
   }
 };

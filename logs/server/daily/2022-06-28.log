@@ -1,2 +1,294 @@
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T02:49:02.221Z"}
 info: Connected to the database. {"timestamp":"2022-06-28T02:49:02.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:03:17.484Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:03:17.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:03:41.723Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:03:41.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:28:27.845Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:28:27.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:28:34.518Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:28:34.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:31:34.157Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:31:34.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:48:15.196Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:48:15.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:48:19.134Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:48:19.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:49:23.512Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:49:23.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:49:58.498Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:49:58.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:52:53.412Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:52:53.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:53:16.929Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:53:16.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:55:43.755Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:55:43.784Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:11:16)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T13:56:46.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T13:58:29.440Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:58:29.465Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:13)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T13:58:34.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T14:00:17.601Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:00:17.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T14:24:40.063Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:24:40.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T14:25:35.953Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:25:35.977Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:11:16)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T14:25:43.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T14:27:15.422Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:27:15.444Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:13)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T14:27:26.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T14:28:56.374Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:28:56.401Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:19)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T14:28:59.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T14:29:58.173Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:29:58.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T14:31:12.551Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T14:31:12.571Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:19)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T14:31:21.786Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:19)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T15:03:30.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T15:04:28.439Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T15:04:28.462Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:19)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T15:04:31.397Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:19)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T15:04:34.723Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at NoteValidator (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\validators\/note.validator.js:14:19)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/userNotes/addNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-28T15:04:38.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T15:04:56.534Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T15:04:56.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T15:05:47.844Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T15:05:47.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T16:38:59.875Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T16:38:59.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T16:42:27.830Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T16:42:27.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T16:43:47.051Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T16:43:47.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T17:06:18.710Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T17:06:18.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T17:09:56.260Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T17:09:56.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T17:11:29.521Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T17:11:29.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T17:13:07.753Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T17:13:07.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-28T17:14:04.459Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T17:14:04.484Z"}
