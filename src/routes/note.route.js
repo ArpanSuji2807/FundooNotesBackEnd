@@ -6,7 +6,7 @@ import { NoteValidator } from '../validators/note.validator';
 const router = express.Router();
 
 //route to Create Note
-router.post('/addNote',userAuth ,NoteValidator, noteController.AddNote);
+router.post('',NoteValidator,userAuth, noteController.AddNote);
 
 //route to get all notes
 router.get('',userAuth,noteController.getAllNotes);

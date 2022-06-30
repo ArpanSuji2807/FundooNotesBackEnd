@@ -68,3 +68,25 @@ info: ::1 - - [29/Jun/2022:04:36:03 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 
 
 info: ::1 - - [29/Jun/2022:04:36:22 +0000] "DELETE /api/v1/userNotes/62bbcbe135ac8d341c334fae HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [29/Jun/2022:16:11:11 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 316 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:11:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:14:35 +0000] "POST /api/v1/userNotes/addNote HTTP/1.1" 400 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:15:26 +0000] "POST /api/v1/userNotes/addNote HTTP/1.1" 201 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:15:59 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 829 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:17:18 +0000] "PUT /api/v1/userNotes/62bbc746c7b2f324a498982d HTTP/1.1" 202 265 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:17:38 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 852 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:18:04 +0000] "DELETE /api/v1/userNotes/62bbca824c449d0f585d3d38 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:18:16 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 852 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:18:50 +0000] "DELETE /api/v1/userNotes/62bbca824c449d0f585d3d38 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:19:06 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 852 "-" "PostmanRuntime/7.29.0"
+

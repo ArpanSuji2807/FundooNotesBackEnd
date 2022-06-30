@@ -627,3 +627,122 @@ info: ::1 - - [29/Jun/2022:04:36:03 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 
 
 info: ::1 - - [29/Jun/2022:04:36:22 +0000] "DELETE /api/v1/userNotes/62bbcbe135ac8d341c334fae HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [29/Jun/2022:16:11:11 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 316 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:11:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:14:35 +0000] "POST /api/v1/userNotes/addNote HTTP/1.1" 400 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:15:26 +0000] "POST /api/v1/userNotes/addNote HTTP/1.1" 201 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:15:59 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 829 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:17:18 +0000] "PUT /api/v1/userNotes/62bbc746c7b2f324a498982d HTTP/1.1" 202 265 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:17:38 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 852 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:18:04 +0000] "DELETE /api/v1/userNotes/62bbca824c449d0f585d3d38 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:18:16 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 852 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:18:50 +0000] "DELETE /api/v1/userNotes/62bbca824c449d0f585d3d38 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [29/Jun/2022:16:19:06 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 852 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:02:39:44 +0000] "POST /api/v1/userNotes/addNote HTTP/1.1" 201 262 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:02:40:06 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 1057 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:02:40:26 +0000] "GET /api/v1/userNotes/62bc7a9ea1a68f47985d9ec9 HTTP/1.1" 200 265 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:02:41:01 +0000] "PUT /api/v1/userNotes/62bc7a9ea1a68f47985d9ec9 HTTP/1.1" 202 244 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:02:41:14 +0000] "DELETE /api/v1/userNotes/62bc7a9ea1a68f47985d9ec9 HTTP/1.1" 200 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:24:53 +0000] "DELETE /api/v1/userNotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:25:01 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 1036 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:36:09 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 1036 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:37:53 +0000] "POST /api/v1/userNotes/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:38:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:38:48 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 1036 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:41:40 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 317 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:42:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:44:50 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 277 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:45:09 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 1256 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:47:14 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 277 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:48:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:50:14 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 270 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:51:18 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 273 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:52:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:53:28 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 278 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:53:46 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 501 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:56:27 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 285 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:57:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:05:58:33 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [30/Jun/2022:06:17:47 +0000] "GET /api/v1/userNotes/62bd39d644d59b2f9c1197af HTTP/1.1" 200 274 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 11:49:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":905937},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19532317,"external":29295624,"heapTotal":81399808,"heapUsed":58882872,"rss":116441088},"pid":13100,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 11:50:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":906001},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19579876,"external":29287762,"heapTotal":81399808,"heapUsed":59416224,"rss":116916224},"pid":4036,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 11:51:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":906088},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18499908,"external":29297017,"heapTotal":82071552,"heapUsed":50023288,"rss":116977664},"pid":1604,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 11:52:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":906138},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18535362,"external":29295849,"heapTotal":81809408,"heapUsed":49909112,"rss":116645888},"pid":16484,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 11:53:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":906199},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18454540,"external":29279317,"heapTotal":82071552,"heapUsed":49926512,"rss":116621312},"pid":17448,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
