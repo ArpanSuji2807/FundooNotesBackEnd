@@ -1333,3 +1333,820 @@ ReferenceError: data is not defined
     at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 11:53:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":906199},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18446324,"external":29271061,"heapTotal":82071552,"heapUsed":49849496,"rss":115892224},"pid":17448,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-30T06:23:34.316Z","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T06:23:47.089Z"}
 info: Connected to the database. {"timestamp":"2022-06-30T06:23:47.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:07:52.758Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:07:52.808Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 16:38:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":923270},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286946,"external":19962948,"heapTotal":48517120,"heapUsed":43811800,"rss":80756736},"pid":14384,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-30T11:08:05.326Z","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:08:17.586Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:08:17.616Z"}
+error: 
+    status - 500 
+    message - ReferenceError: id is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:39:38)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:11:53.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:15:20.388Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:15:20.417Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of null (setting 'isArchived')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:5)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:15:23.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:16:12.383Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:16:12.415Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of null (setting 'isArchived')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:40:5)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:16:19.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:16:43.332Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:16:43.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:17:40.814Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:17:40.838Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of null (setting 'isArchived')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:40:5)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:17:49.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:18:06.049Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:18:06.073Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of null (setting 'isArchived')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:40:5)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:23:56.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:31:48.686Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:31:48.714Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of null (setting 'isArchived')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:40:8)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:31:53.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:32:09.347Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:32:09.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:35:26.788Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:35:26.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:51:19.918Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:51:19.951Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:9)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T11:51:48.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:54:46.570Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:54:46.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T11:55:51.690Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T11:55:51.718Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:9)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:00:03.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:00:31.423Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:00:31.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:00:40.426Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:00:40.450Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:12)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:00:49.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:01:38.034Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:01:38.060Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:19)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:01:41.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:01:59.673Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:01:59.705Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:24)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:02:03.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:03:30.839Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:03:30.871Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:44:21)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:03:34.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:04:59.156Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:04:59.185Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:26)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:05:02.761Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:26)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:05:05.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:05:26.119Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:05:26.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:07:16.412Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:07:16.437Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '62bd39d644d59b2f9c1197af', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:07:19.543Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 17:38:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":926907},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297697,"external":19871434,"heapTotal":50266112,"heapUsed":45122352,"rss":82907136},"pid":6748,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-30T12:08:42.534Z","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:09:02.105Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:09:02.129Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Jun 30 2022 17:40:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":927040},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18300861,"external":19874598,"heapTotal":50876416,"heapUsed":45755864,"rss":83828736},"pid":7720,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-06-30T12:10:55.001Z","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:11:14.842Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:11:14.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:15:59.014Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:15:59.047Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '62bd39d644d59b2f9c1197af' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:16:32.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:16:56.793Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:16:56.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:17:03.441Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:17:03.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:17:10.138Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:17:10.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:17:14.730Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:17:14.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:17:21.163Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:17:21.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:21:19.810Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:21:19.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:23:13.612Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:23:13.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:23:26.663Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:23:26.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:26:53.121Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:26:53.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:27:16.572Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:27:16.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T12:28:17.922Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T12:28:17.943Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndDelete (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:2834:19)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:54:29)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isDelete (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:53:24)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:90:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isDelete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:28:20.292Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndDelete (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:2834:19)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:54:29)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isDelete (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:53:24)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:90:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isDelete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-30T12:42:02.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:50:28.423Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:50:28.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:51:42.156Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:51:42.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:51:56.937Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:51:56.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:52:07.687Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:52:07.727Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndDelete (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:2834:19)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:54:29)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:53:23)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:90:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isDelete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-30T16:52:26.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:53:27.223Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:53:27.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:54:28.005Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:54:28.028Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:56:25)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:53:23)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:90:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isDelete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-30T16:54:52.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T16:56:33.881Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T16:56:33.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T17:13:18.986Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T17:13:19.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T17:14:01.488Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T17:14:01.511Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:20)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T17:14:45.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T17:51:16.240Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T17:51:16.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T17:51:23.421Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T17:51:23.445Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:20)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T17:51:50.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-30T17:53:05.101Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T17:53:05.137Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:25)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd39d644d59b2f9c1197af/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-30T17:53:08.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:25:43.821Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:25:43.855Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'UserID')
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:41:25)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T02:32:38.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:47:59.570Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:47:59.598Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined, UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T02:48:08.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:48:42.397Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:48:42.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:50:44.301Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:50:44.321Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined, UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T02:50:52.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:54:44.875Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:54:44.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:56:51.092Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:56:51.119Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _UserId is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:40:17)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T02:57:01.967Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _UserId is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:40:17)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T02:57:33.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:58:09.729Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:58:09.768Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:43:12)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T02:58:14.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T02:59:12.056Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:59:12.078Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:43:12)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.archiveNotes (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:38:28)
+    at _callee6$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:77:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62bd849c9fc7b80054328db8/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T02:59:18.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T03:00:26.057Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T03:00:26.091Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T03:05:33.357Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T03:05:33.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T05:21:55.600Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T05:21:55.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T05:23:18.552Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T05:23:18.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T05:23:46.545Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T05:23:46.569Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndDelete (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\model.js:2834:19)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:56:29)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:55:23)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:90:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21) 
+    url - /api/v1/userNotes/62be642e0589740f0cfe05b6/isDelete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-07-01T05:24:44.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T05:25:23.923Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T05:25:23.949Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:58:13)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:55:23)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:90:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62be642e0589740f0cfe05b6/isDelete 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-07-01T05:25:27.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T05:28:08.577Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T05:28:08.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T05:28:22.131Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T05:28:22.157Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:58:13)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isTrash (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/note.service.js:55:23)
+    at _callee7$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:90:40)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/userNotes/62be642e0589740f0cfe05b6/isDelete 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-01T05:28:32.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-07-01T05:29:11.728Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T05:29:11.758Z"}

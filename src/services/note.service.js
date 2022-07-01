@@ -35,6 +35,7 @@ export const updateNotes = async (_id, body) => {
     return '';
   };
 
+<<<<<<< HEAD
   
 export const archiveNotes = async(_id,UserID) =>{
   console.log(_id);
