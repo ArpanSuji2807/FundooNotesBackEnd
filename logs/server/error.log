@@ -1767,3 +1767,236 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-07-01T05:28:32.074Z"}
+error: uncaughtException: swaggerUi is not defined
+ReferenceError: swaggerUi is not defined
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\/index.js:31:22)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Sun Jul 03 2022 13:29:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1171148},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18788424,"external":25306517,"heapTotal":116563968,"heapUsed":85782808,"rss":152932352},"pid":6968,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: swaggerUi is not defined\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\/index.js:31:22)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-07-03T07:59:13.657Z","trace":[{"column":22,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\/index.js","function":null,"line":31,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Jul 04 2022 16:33:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1268608},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18311103,"external":19900635,"heapTotal":81174528,"heapUsed":77208832,"rss":116891648},"pid":6140,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-07-04T11:03:32.876Z","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at _callee3$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/note.controller.js:43:18)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Jul 04 2022 16:35:57 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1268752},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297375,"external":19871964,"heapTotal":80650240,"heapUsed":76560504,"rss":115728384},"pid":19732,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee3$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js:43:18)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _throw (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:29:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-07-04T11:05:57.283Z","trace":[{"column":18,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":43,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.throw","line":117,"method":"throw","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_throw","line":29,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: findOne is not defined
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:28)
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:66:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/forgetPassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:29:06.401Z"}
+error: 
+    status - 500 
+    message - ReferenceError: find is not defined
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:28)
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:66:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/forgetPassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:30:36.505Z"}
+error: 
+    status - 500 
+    message - ReferenceError: findOne is not defined
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:28)
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:66:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/forgetPassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:42:02.471Z"}
+error: 
+    status - 500 
+    message - ReferenceError: findOne is not defined
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:40:28)
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:66:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/forgetPassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:43:23.133Z"}
+error: 
+    status - 500 
+    message - Error: Mail Id not present
+    at _callee4$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:46:13)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgetPassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:46:51.224Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:56:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:55:27)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:84:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24) 
+    url - /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFycGFuZGFyamVlMjhAZ21haWwuY29tIiwiX2lkIjoiNjJjNDdjNmQzOGYwNWEzNDdjZjE5Nzc5IiwiaWF0IjoxNjU3MDg4MzA5fQ.OERPd3Kzlx9aGo_he6wGh5PT9WR-e6xUSiwplQpyLK4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-06T06:22:47.201Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:56:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:55:27)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:84:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24) 
+    url - /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFycGFuZGFyamVlMjhAZ21haWwuY29tIiwiX2lkIjoiNjJjNDdjNmQzOGYwNWEzNDdjZjE5Nzc5IiwiaWF0IjoxNjU3MDg4MzA5fQ.OERPd3Kzlx9aGo_he6wGh5PT9WR-e6xUSiwplQpyLK4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-06T06:23:27.251Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:56:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:55:27)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:84:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24) 
+    url - /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFycGFuZGFyamVlMjhAZ21haWwuY29tIiwiX2lkIjoiNjJjNDdjNmQzOGYwNWEzNDdjZjE5Nzc5IiwiaWF0IjoxNjU3MDg4MzA5fQ.OERPd3Kzlx9aGo_he6wGh5PT9WR-e6xUSiwplQpyLK4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-06T06:35:44.903Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:56:31)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\services\/user.service.js:55:27)
+    at _callee5$ (C:\Users\Arpan suji\FundooNotes\Fundoonotes\src\controllers\/user.controller.js:84:36)
+    at tryCatch (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24) 
+    url - /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFycGFuZGFyamVlMjhAZ21haWwuY29tIiwiX2lkIjoiNjJjNDdjNmQzOGYwNWEzNDdjZjE5Nzc5IiwiaWF0IjoxNjU3MDg4MzA5fQ.OERPd3Kzlx9aGo_he6wGh5PT9WR-e6xUSiwplQpyLK4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-07-06T06:38:46.330Z"}

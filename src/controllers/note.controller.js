@@ -31,7 +31,7 @@ export const getAllNotes = async (req, res, next) => {
 
 export const getNote = async (req, res, next) => {
     try {
-        const data = await NoteService.getNote(req.params._id);
+        const data = await NoteService.getNote(req.params._id,req.body);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data:data,
@@ -61,7 +61,7 @@ export const updateNotes = async (req, res, next) => {
 
 export const deleteNotes = async (req, res, next) => {
     try {
-        const data = await NoteService.deleteNotes(req.params._id);
+        const data = await NoteService.deleteNotes(req.params._id,req.body.UserID);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data:[],

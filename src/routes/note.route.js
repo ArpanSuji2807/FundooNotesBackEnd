@@ -18,7 +18,7 @@ router.get('/:_id',userAuth,noteController.getNote);
 router.put('/:_id',userAuth,noteController.updateNotes);
 
 //route to delete a single notes
-router.delete('/:id',userAuth,noteController.deleteNotes);
+router.delete('/:_id',userAuth,noteController.deleteNotes);
 
 //router to archive notes
 router.put('/:_id/isArchive',userAuth,noteController.archiveNotes);

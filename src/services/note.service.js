@@ -12,17 +12,16 @@ export const getAllNotes = async (body) => {
     return data;
 }
 
-export const getNote = async (id,body) => {
-    const data = await Note.findById({id,UserID:body.UserID});
+export const getNote = async (_id,body) => {
+    const data = await Note.findById({_id,UserID:body.UserID});
     return data;
 }
 
 export const updateNotes = async (_id, body) => {
     const data = await Note.findByIdAndUpdate(
       {
-        _id,
+        _id:_id ,UserID:body.UserID
       },
-      body,
       {
         new: true
       }
@@ -30,14 +29,12 @@ export const updateNotes = async (_id, body) => {
     return data;
   };
 
-  export const deleteNotes = async (id) => {
-    await Note.findByIdAndDelete(id);
+  export const deleteNotes = async (_id,UserID) => {
+    await Note.findByIdAndDelete({_id_id,UserID:UserID});
     return '';
   };
 
   export const archiveNotes = async(_id,UserID) =>{
-    console.log(_id);
-    console.log(UserID);
     const data = await Note.findByIdAndUpdate(
       {
        _id:_id,UserID:UserID

@@ -1,0 +1,298 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": " Fundoo Notes",
+        "description": "This is the Replica of Google keep. CLI App API"
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "CLI",
+            "description": "Creating user......."
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users": {
+            "post": {
+                "tags": [],
+                "description": "create name...",
+                "parameters": [
+                    {
+                        "name": "Create name",
+                        "in": "body",
+                        "description": "Create",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [],
+                "description": "login name...",
+                "parameters": [
+                    {
+                        "name": "login user",
+                        "in": "body",
+                        "description": "login",
+                        "schema": {
+                            "$ref": "#/definitions/loging"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404": {
+                        "description": "Invalid Login Credentials"
+                    }
+                }
+            }
+        },
+        "/userNotes": {
+            "post": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "Create Note for User",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Create name",
+                        "in": "body",
+                        "description": "Create",
+                        "schema": {
+                            "$ref": "#/definitions/Note"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Notes created successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404": {
+                        "description": "Incorrect type of note"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "get": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "Get all Notes",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Get Notes",
+                        "description": "Get all notes for user",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Notes fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404": {
+                        "description": "Could not fetch notes"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/usersNotes/{_id}": {
+            "get": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "Get note by ID",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Get Notes by Id",
+                        "in":"path",
+                        "description": "Get  notes for user by ID",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Notes fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404": {
+                        "description": "Could not fetch notes"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "update notes by Id",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Update note",
+                        "description": "update and create new note by ID",
+                        "schema": {
+                            "$ref": "#/definitions/Note"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Notes updated successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404": {
+                        "description": "Could not update note"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "delete note by Id",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "delete note",
+                        "description": "delete note by ID",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Note deleted successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404": {
+                        "description": "Could not Delete note"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header"
+        }
+      },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "loging": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "Note": {
+            "type": "object",
+            "properties": {
+                "Title": {
+                    "type": "string",
+                    "description": "Title of Note."
+                },
+                "Description": {
+                    "type": "string",
+                    "description": "Description of Note created."
+                },
+                "Color": {
+                    "type": "string",
+                    "description": "Color of Notes"
+                }
+            }
+        }
+    }
+}
