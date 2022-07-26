@@ -57,14 +57,17 @@ export const UserRegistration = async (req, res, next) => {
       message: 'User created successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
 export const forgetPassword = async (req, res, next) => {
   try {
     const data = await UserService.forgetPassword(req.body);
-    console.log("Inside controller---->>>",data);
+    console.log("Inside controller---->>>", data);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -79,15 +82,18 @@ export const forgetPassword = async (req, res, next) => {
   }
 };
 
-export const resetPassword =async(req,res,next)=>{
-  try{
-    const data = await UserService.resetPassword(req.params.token,req.body);
+export const resetPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.resetPassword(req.params.token, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-          data: data,
-          message: 'Password Updated Succesfully'
+      data: data,
+      message: 'Password Updated Succesfully'
     });
-  }catch(error){
-    next(error);
-      }
-    };
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};

@@ -1,0 +1,18 @@
+info: ::1 - - [12/Jul/2022:03:22:49 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:05:35:00 +0000] "GET /api/v1/usersNotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:05:36:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 302 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:12:04:20 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:12:05:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 302 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:12:06:56 +0000] "POST /api/v1/usersNotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:12:12:19 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:12:15:01 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 288 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [12/Jul/2022:12:15:44 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 286 "-" "PostmanRuntime/7.29.0"
+

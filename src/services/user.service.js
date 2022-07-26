@@ -1,8 +1,8 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-//import sendMail from '../utils/helper'
 import { mailSender } from '../utils/helper';
+import { producer } from '../utils/rabbitmq';
 
 //get all users
 export const getAllUsers = async () => {
@@ -12,11 +12,17 @@ export const getAllUsers = async () => {
 
 //create new user(USER REGISTRATION)
 export const UserRegistration = async (body) => {
-  const saltRounds = 10
-  const hashpassword = await bcrypt.hash(body.password, saltRounds);
-  body.password = hashpassword;
-  const data = await User.create(body);
-  return data;
+  const mail = await User.findOne({email:body.email})
+  if(mail){
+    throw new Error("Email Id already exists");
+  }else{
+    const saltRounds = 10
+    const hashpassword = await bcrypt.hash(body.password, saltRounds);
+    body.password = hashpassword;
+    const data = await User.create(body);
+    producer(data);
+    return data;
+  }
 };
 
 //get single user(LOGIN)

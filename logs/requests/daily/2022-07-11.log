@@ -1,0 +1,146 @@
+info: ::1 - - [11/Jul/2022:03:02:47 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:02:48 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:02:48 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:02:48 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:02:48 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:03:49 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:05:41 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:05:41 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:05:41 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:05:41 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8055 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:05:41 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:03:05:42 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:10:42 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 318 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:13:18 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:13:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:13:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:13:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:13:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:13:18 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:14:01 +0000] "POST /api/v1/users/signUp HTTP/1.1" 400 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:14:32 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:14:32 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:14:32 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:14:32 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:14:32 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:14:33 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:15:01 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 316 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:17:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:17:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:17:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:17:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:17:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:17:21 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:18:29 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 320 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:33 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:33 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:33 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:33 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:33 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:33 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:47 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:47 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:47 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:47 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:47 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:35:47 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:36:54 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 323 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:04:41:25 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 321 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Jul/2022:05:41:32 +0000] "POST /api/v1/users/signUp HTTP/1.1" 400 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:05:42:45 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:05:46:04 +0000] "POST /api/v1/users/signUp HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:05:46:52 +0000] "POST /api/v1/users/signUp HTTP/1.1" 400 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:05:47:56 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 326 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:05:55:28 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 326 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:05:59:10 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 325 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:05:24 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 325 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:10:49 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 321 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:14:15 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:16:06 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:17:14 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:18:43 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:22:35 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:42:35 +0000] "POST /api/v1/users/signUp HTTP/1.1" 400 59 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:43:35 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:06:44:30 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:07:19:24 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:09:27:03 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:09:31:30 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:09:35:07 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:09:42:11 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:09:43:26 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:09:46:59 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jul/2022:09:50:13 +0000] "POST /api/v1/users/signUp HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
