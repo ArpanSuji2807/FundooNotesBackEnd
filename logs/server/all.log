@@ -6507,3 +6507,310 @@ info: Connected to the database. {"timestamp":"2022-07-21T10:36:23.461Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-22T01:56:54.316Z"}
 info: Connected to the redis database {"timestamp":"2022-07-22T01:56:54.340Z"}
 info: Connected to the database. {"timestamp":"2022-07-22T01:56:55.349Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T06:13:20.213Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T06:13:20.259Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:13:50.210Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T06:14:43.854Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T06:14:43.863Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:15:13.871Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T06:18:05.742Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T06:18:05.755Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:18:35.751Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T06:19:28.311Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T06:19:28.321Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:19:58.338Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T06:20:56.940Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T06:20:56.952Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:21:26.962Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T06:59:10.705Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T06:59:10.723Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:59:40.725Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T07:09:22.914Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T07:09:22.934Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T07:09:23.136Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-27T17:10:09.190Z"}
+info: Connected to the redis database {"timestamp":"2022-07-27T17:10:09.201Z"}
+info: Connected to the database. {"timestamp":"2022-07-27T17:10:09.216Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-28T03:11:14.639Z"}
+info: Connected to the redis database {"timestamp":"2022-07-28T03:11:14.655Z"}
+info: Connected to the database. {"timestamp":"2022-07-28T03:11:14.710Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-29T04:10:56.084Z"}
+info: Connected to the redis database {"timestamp":"2022-07-29T04:10:56.188Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T04:10:57.145Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-29T05:54:20.186Z"}
+info: Connected to the redis database {"timestamp":"2022-07-29T05:54:20.234Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T05:54:20.309Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-29T11:54:35.119Z"}
+info: Connected to the redis database {"timestamp":"2022-07-29T11:54:35.131Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T11:54:35.587Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-29T12:24:56.100Z"}
+info: Connected to the redis database {"timestamp":"2022-07-29T12:24:56.120Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:24:56.131Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-29T12:29:53.172Z"}
+info: Connected to the redis database {"timestamp":"2022-07-29T12:29:53.199Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T12:29:53.214Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-29T16:26:44.166Z"}
+info: Connected to the redis database {"timestamp":"2022-07-29T16:26:44.175Z"}
+info: Connected to the database. {"timestamp":"2022-07-29T16:26:44.192Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-30T02:22:04.548Z"}
+info: Connected to the redis database {"timestamp":"2022-07-30T02:22:04.585Z"}
+info: Connected to the database. {"timestamp":"2022-07-30T02:22:05.206Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-30T07:13:45.225Z"}
+info: Connected to the redis database {"timestamp":"2022-07-30T07:13:45.267Z"}
+info: Connected to the database. {"timestamp":"2022-07-30T07:13:45.383Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T03:04:09.980Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T03:04:10.001Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T03:04:10.024Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T10:44:56.657Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T10:44:56.684Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T10:44:56.770Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T12:44:46.223Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T12:44:46.234Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T12:44:46.260Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T12:46:05.626Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T12:46:05.634Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T12:46:05.652Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T12:48:31.911Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T12:48:31.919Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T12:48:32.033Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T12:50:29.292Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T12:50:29.301Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T12:50:29.322Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T12:50:39.543Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T12:50:39.552Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T12:50:39.571Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T12:57:51.143Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T12:57:51.158Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T12:57:51.179Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T16:44:55.960Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T16:44:55.973Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T16:44:55.982Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T17:04:08.184Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T17:04:08.194Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T17:04:08.237Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T17:05:13.678Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T17:05:13.701Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T17:05:13.749Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T17:07:01.051Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T17:07:01.072Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T17:07:01.081Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T17:08:33.318Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T17:08:33.327Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T17:08:33.378Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-02T17:09:03.385Z"}
+info: Connected to the redis database {"timestamp":"2022-08-02T17:09:03.426Z"}
+info: Connected to the database. {"timestamp":"2022-08-02T17:09:03.453Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T02:29:56.093Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T02:29:56.117Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T02:29:56.133Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:12:57.198Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:12:57.223Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:12:57.239Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:13:56.445Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:13:56.453Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:13:56.487Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:16:33.401Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:16:33.430Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:16:33.450Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:18:49.558Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:18:49.567Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:18:49.594Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T07:03:54.339Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T07:03:54.370Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T07:03:54.496Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T07:10:30.946Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T07:10:30.955Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T07:10:31.015Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T10:25:54.846Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T10:25:54.877Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T10:25:54.951Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:02:47.566Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:02:47.579Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:02:47.616Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:03:55.639Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:03:55.653Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:03:55.694Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:04:51.531Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:04:51.544Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:04:51.553Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:05:07.395Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:05:07.412Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:05:07.424Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:05:53.529Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:05:53.543Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:05:53.553Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:09:59.031Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:09:59.039Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:09:59.086Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:25:09.762Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:25:09.776Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:25:09.788Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:38:26.001Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:38:26.018Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:38:26.032Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:40:37.196Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:40:37.206Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:40:37.227Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-04T02:27:17.840Z"}
+info: Connected to the redis database {"timestamp":"2022-08-04T02:27:17.883Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:27:18.001Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-04T05:53:48.281Z"}
+info: Connected to the redis database {"timestamp":"2022-08-04T05:53:48.296Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T05:53:48.307Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-04T11:58:48.286Z"}
+info: Connected to the redis database {"timestamp":"2022-08-04T11:58:48.294Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T11:58:48.308Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-05T02:46:12.920Z"}
+info: Connected to the redis database {"timestamp":"2022-08-05T02:46:12.938Z"}
+info: Connected to the database. {"timestamp":"2022-08-05T02:46:12.981Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:19:53.617Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:31:13.564Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'Hi', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/Hi 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:37:55.589Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:55:41.441Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:56:57.054Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-05T06:27:16.218Z"}
+info: Connected to the redis database {"timestamp":"2022-08-05T06:27:16.318Z"}
+info: Connected to the database. {"timestamp":"2022-08-05T06:27:16.336Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:34:23.506Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:35:30.840Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:36:42.434Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:39:47.093Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:41:08.588Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:43:05.043Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:49:52.783Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:55:16.267Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T07:03:25.699Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-05T11:43:06.943Z"}
+info: Connected to the redis database {"timestamp":"2022-08-05T11:43:06.994Z"}
+info: Connected to the database. {"timestamp":"2022-08-05T11:43:07.044Z"}

@@ -5,7 +5,7 @@
         "title": " Fundoo Notes",
         "description": "This is the Replica of Google keep. CLI App API"
     },
-    "host": "localhost:3000",
+    "host": "localhost:3001",
     "basePath": "/api/v1/",
     "tags": [
         {
@@ -239,7 +239,71 @@
                     }
                 ]
             }
-        }
+        },
+        "/userNotes/{:_id}/isArchive":{
+            "put":{
+                "tags": ["Notes"],
+                "summary":"Archived the notes ",
+                "description": "Archived the notes.",
+                "parameters": [
+                    {
+                        "name": "Archived notes.",
+                        "in": "path",
+                       "required":true,
+                       "type":"string"
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull Archived notes.."
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            }
+        },
+        "/userNotes/{:_id}/isDelete":{
+            "put":{
+                "tags": ["Notes"],
+                "summary":"send the notes to trash",
+                "description": "send the notes to trash.",
+                "parameters": [
+                    {
+                        "name": "notesid",
+                        "in": "path",
+                       "required":true,
+                       "type":"string"
+                    }
+                ],
+                "produces": [ "application/json" ],
+                "responses": {
+                    "200": {
+                        "description": "Sucessfull send the notes to trash"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    },
+                    "404":{
+                        "description":"something went wrong"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ] 
+            }
+        }       
     },
     "securityDefinitions": {
         "JWT": {

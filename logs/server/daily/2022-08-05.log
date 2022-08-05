@@ -1,0 +1,154 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-05T02:46:12.920Z"}
+info: Connected to the redis database {"timestamp":"2022-08-05T02:46:12.938Z"}
+info: Connected to the database. {"timestamp":"2022-08-05T02:46:12.981Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:19:53.617Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:31:13.564Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'Hi', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/Hi 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:37:55.589Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:55:41.441Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:56:57.054Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-05T06:27:16.218Z"}
+info: Connected to the redis database {"timestamp":"2022-08-05T06:27:16.318Z"}
+info: Connected to the database. {"timestamp":"2022-08-05T06:27:16.336Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:34:23.506Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:35:30.840Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:36:42.434Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:39:47.093Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:41:08.588Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:43:05.043Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:49:52.783Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:55:16.267Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T07:03:25.699Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-05T11:43:06.943Z"}
+info: Connected to the redis database {"timestamp":"2022-08-05T11:43:06.994Z"}
+info: Connected to the database. {"timestamp":"2022-08-05T11:43:07.044Z"}

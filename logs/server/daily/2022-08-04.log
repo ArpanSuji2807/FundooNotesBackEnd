@@ -1,0 +1,9 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-04T02:27:17.840Z"}
+info: Connected to the redis database {"timestamp":"2022-08-04T02:27:17.883Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T02:27:18.001Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-04T05:53:48.281Z"}
+info: Connected to the redis database {"timestamp":"2022-08-04T05:53:48.296Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T05:53:48.307Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-04T11:58:48.286Z"}
+info: Connected to the redis database {"timestamp":"2022-08-04T11:58:48.294Z"}
+info: Connected to the database. {"timestamp":"2022-08-04T11:58:48.308Z"}

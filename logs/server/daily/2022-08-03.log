@@ -1,0 +1,51 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T02:29:56.093Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T02:29:56.117Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T02:29:56.133Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:12:57.198Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:12:57.223Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:12:57.239Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:13:56.445Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:13:56.453Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:13:56.487Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:16:33.401Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:16:33.430Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:16:33.450Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T03:18:49.558Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T03:18:49.567Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T03:18:49.594Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T07:03:54.339Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T07:03:54.370Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T07:03:54.496Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T07:10:30.946Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T07:10:30.955Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T07:10:31.015Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T10:25:54.846Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T10:25:54.877Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T10:25:54.951Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:02:47.566Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:02:47.579Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:02:47.616Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:03:55.639Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:03:55.653Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:03:55.694Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:04:51.531Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:04:51.544Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:04:51.553Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:05:07.395Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:05:07.412Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:05:07.424Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:05:53.529Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:05:53.543Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:05:53.553Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:09:59.031Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:09:59.039Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:09:59.086Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:25:09.762Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:25:09.776Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:25:09.788Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:38:26.001Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:38:26.018Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:38:26.032Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-08-03T11:40:37.196Z"}
+info: Connected to the redis database {"timestamp":"2022-08-03T11:40:37.206Z"}
+info: Connected to the database. {"timestamp":"2022-08-03T11:40:37.227Z"}

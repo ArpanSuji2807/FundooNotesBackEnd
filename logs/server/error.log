@@ -5507,3 +5507,154 @@ ReferenceError: data is not defined
     at asyncGeneratorStep (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
     at _next (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
     at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Jul 12 2022 17:44:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1964045},"process":{"argv":["node","C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\index.js"],"cwd":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19200164,"external":47588474,"heapTotal":196612096,"heapUsed":170582240,"rss":233447424},"pid":15752,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: data is not defined\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\middlewares\\/reddis.middleware.js:6:5)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-07-12T12:14:00.213Z","trace":[{"column":5,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\middlewares\\/reddis.middleware.js","function":"_callee$","line":6,"method":null,"native":false},{"column":17,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":86,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator._invoke","line":66,"method":"_invoke","native":false},{"column":21,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":117,"method":"next","native":false},{"column":24,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:13:50.210Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:15:13.871Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:18:35.751Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:19:58.338Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:21:26.962Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\Arpan suji\\FundooNotes\\Fundoonotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-07-27T06:59:40.725Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:19:53.617Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:31:13.564Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'Hi', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/Hi 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:37:55.589Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:55:41.441Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T04:56:57.054Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:34:23.506Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:35:30.840Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:36:42.434Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:39:47.093Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:41:08.588Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:43:05.043Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:49:52.783Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '[object Object]', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/[object%20Object] 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T06:55:16.267Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'undefined', UserID: 'arpan@gmail.com' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\Arpan suji\FundooNotes\Fundoonotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/userNotes/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-05T07:03:25.699Z"}

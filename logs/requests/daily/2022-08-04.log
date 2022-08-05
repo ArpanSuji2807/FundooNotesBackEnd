@@ -1,0 +1,152 @@
+info: ::1 - - [04/Aug/2022:02:35:19 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2532 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:02:35:19 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:49:48 +0000] "PUT /api/v1/userNotes/62ea226eab5fab443ca6546c HTTP/1.1" 202 282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:49:52 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2534 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:49:52 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2532 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:49:58 +0000] "PUT /api/v1/userNotes/62e9089ca70f3e3b54402df9 HTTP/1.1" 202 298 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:02 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2534 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:02 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2532 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:17 +0000] "PUT /api/v1/userNotes/62e906f8a70f3e3b54402df5 HTTP/1.1" 202 289 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:19 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2534 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:19 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2532 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:30 +0000] "PUT /api/v1/userNotes/62c28fcde8b08a4e20ecea91 HTTP/1.1" 202 276 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:33 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2535 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:33 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2533 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:42 +0000] "PUT /api/v1/userNotes/62e17657636893292ccfffe3 HTTP/1.1" 202 267 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:44 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2536 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:44 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2534 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:50:58 +0000] "PUT /api/v1/userNotes/62e9e954bf107a4bc8b7188c HTTP/1.1" 202 284 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:51:00 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2543 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:03:51:00 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2541 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:04:21:26 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:04:21:26 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:05:55:11 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:05:55:11 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:01:11 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:01:11 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:02:24 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:02:24 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:17:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:17:30 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:17:30 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:19:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:19:41 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:19:41 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:25:25 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:06:25:25 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:12:01:01 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:12:01:01 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:12:18:06 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:12:18:06 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:12:29:35 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:12:29:35 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:37:23 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:37:30 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:37:31 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:37:40 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:39:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 291 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:39:21 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:39:21 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:58:11 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:58:11 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:59:47 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:13:59:47 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:00:49 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:00:49 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:01:51 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:01:51 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:16:47 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 299 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:16:49 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2785 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:16:49 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 2783 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:19:01 +0000] "POST /api/v1/userNotes HTTP/1.1" 201 348 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:19:07 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 3076 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:19:07 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 3074 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:19:25 +0000] "PUT /api/v1/userNotes/62ebd5558bedd2619ceb0ecf HTTP/1.1" 202 356 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:19:27 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 3083 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:19:27 +0000] "GET /api/v1/userNotes HTTP/1.1" 200 3081 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:30:48 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:30:48 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:31:22 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:31:22 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:32:47 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:32:47 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:46:22 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:46:22 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:47:44 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Aug/2022:14:47:44 +0000] "GET /api/v1/userNotes HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+

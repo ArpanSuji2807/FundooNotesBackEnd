@@ -4,6 +4,7 @@ import { client } from '../config/redisdatabase';
 export const AddNote = async (body) => {
     console.log(body);
     const data = await Note.create(body);
+    console.log(data,'abc');
     if(data){
       await client.del('AddNote');
     }
@@ -28,16 +29,21 @@ export const updateNotes = async (_id, body) => {
       {
         _id:_id ,UserID:body.UserID
       },
+        body,
       {
         new: true
       }
     );
+    if(data){
+      await client.del('AddNote');
+    }
     return data;
   };
 
   export const deleteNotes = async (_id,UserID) => {
     await Note.findByIdAndDelete({_id:_id,UserID:UserID});
-    return '';
+      await client.del('AddNote');
+      return '';
   };
 
   export const archiveNotes = async(_id,UserID) =>{
@@ -52,6 +58,9 @@ export const updateNotes = async (_id, body) => {
         new: true
       }
     );
+    if(data){
+      await client.del('AddNote');
+    }
     return data;
   }
   
@@ -67,5 +76,8 @@ export const updateNotes = async (_id, body) => {
         new: true
       }
     );
+    if(data){
+      await client.del('AddNote');
+    }
     return data;
   }
